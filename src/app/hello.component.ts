@@ -8,4 +8,5 @@ import { Component, Input } from '@angular/core';
 export class HelloComponent  {
   @Input() name: string;
   @Input() testname: string;
+  @Input() testname2: string; 
 }
